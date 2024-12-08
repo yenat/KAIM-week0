@@ -39,7 +39,7 @@ print("Cleaned data saved to cleaned_data.csv")
 
 # Load the CSV files into DataFrames
 df1 = pd.read_csv('../data/benin-malanville.csv')
-df2 = pd.read_csv('cleaned_data.csv')
+df2 = pd.read_csv('../data/cleaned_data.csv')
 
 # Get the number of records in each DataFrame
 num_records_file1 = len(df1)
